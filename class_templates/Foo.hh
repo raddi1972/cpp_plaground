@@ -33,6 +33,8 @@ public:
     void set_val(float val) {
         this->val = val;
     }
+
+    ~Float() {}
 private:
     float val;
 };
